@@ -1,0 +1,15 @@
+
+.filterContainer {
+  margin-bottom: 10px;
+}
+
+.filterLabel {
+  font-weight: bold;
+}
+
+.filterInput {
+  padding: 6px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

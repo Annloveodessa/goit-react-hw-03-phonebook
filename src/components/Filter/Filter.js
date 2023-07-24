@@ -1,11 +1,17 @@
 import React from 'react';
+import styles from './Filter.module.css'; // Импорт стилей
 
 const Filter = ({ value, onChange }) => {
   return (
-    <div>
-      <label>
+    <div className={styles.filterContainer}>
+      <label className={styles.filterLabel}>
         Filter contacts by name:
-        <input type="text" value={value} onChange={onChange} />
+        <input
+          type="text"
+          value={value}
+          onChange={onChange}
+          className={styles.filterInput}
+        />
       </label>
     </div>
   );
