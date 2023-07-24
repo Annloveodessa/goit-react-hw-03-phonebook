@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import * as Yup from 'yup';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import styles from './ContactForm.module.css'; // Импорт стилей
+import styles from './ContactForm.module.css'; 
 
 class ContactForm extends Component {
   validationSchema = Yup.object().shape({
